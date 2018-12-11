@@ -4,7 +4,7 @@ import sys
 
 
 
-def get_model_pose(model_name):
+def get_model_pose(model_name,hover_flag):
     rospy.wait_for_service('/gazebo/get_model_state')
     req = GetModelStateRequest()
     req.model_name = model_name

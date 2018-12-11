@@ -14,7 +14,7 @@
     <xacro:include filename="$(find birl_baxter_pnp_sim)/model/table_front.xacro">
     </xacro:include>
     <joint name="table_fixed_1" type="fixed">
-      <origin rpy="0 0 0" xyz="0.6 0.0 0.0"/>
+      <origin rpy="0 0 0" xyz="0.68 0.0 0.0"/>
       <parent link="world"/>
       <child link="table_front"/>
     </joint>

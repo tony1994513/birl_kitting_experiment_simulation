@@ -5,7 +5,7 @@ from catkin_pkg.python_setup import generate_distutils_setup
 
 setup_args = generate_distutils_setup(
     packages=[
-        'birl_trajectory_planner',
+        'birl_kitting_experiment_simulation',
     ],
     package_dir={'': 'src'}
 )

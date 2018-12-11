@@ -10,3 +10,10 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 catkin_python_setup()
+
+catkin_package(
+ CATKIN_DEPENDS birl_baxter_description  baxter_gazebo birl_gripper_description)
+
+ include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
