@@ -81,3 +81,4 @@ def add_gazebo_models():
 if __name__ == '__main__':
     rospy.init_node("test_add_models")
     sys.exit(add_gazebo_models())                       
+

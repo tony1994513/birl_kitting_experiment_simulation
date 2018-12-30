@@ -4,13 +4,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://birl_baxter_description/meshes/table/table.dae"/>
+        <mesh filename="package://birl_kitting_experiment_simulation/meshes/table/table.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://birl_baxter_description/meshes/table/table.stl"/>
+        <mesh filename="package://birl_kitting_experiment_simulation/meshes/table/table.stl"/>
       </geometry>
     </collision>
     <inertial>
